@@ -1,8 +1,8 @@
 {
-  "version": "2.5.2",
+  "version": "2.6.0",
   "min_version": "2.0.0",
   "dmg_url": "https://github.com/Mikalakis/nmzc-kiddo-releases/releases/latest/download/NMZC.kiddo-AppleSilicon.dmg",
-  "notes": "Co nowego w 2.5.2:\n- Reframe NONE to teraz twardy FRAME LOCK — kadr 1:1 ze źródłem\n- Siła relightu do wyboru: subtle / balanced / dramatic (domyślnie balanced — światło wygląda jakby naprawdę tam było)\n- Mocniejszy filmowy look: filmic rolloff, kolor druku kinowego, prawdziwa mikrotekstura skóry\n- Panel wyników skaluje się do okna (bez scrolla), podgląd źródła w 16:9\n- Windows: aplikacja dostępna jako instalator .exe i od tej wersji też dostaje powiadomienia o aktualizacjach",
+  "notes": "Co nowego w 2.6.0:\n- Przestawialne panele (przeciągnij nagłówek) + suwaki rozmiaru; przycisk New Session (+)\n- Polish: przepis kamery działa tylko jako charakter optyczny — kadr 1:1; Reshoot musi WYRAŹNIE zmienić kamerę\n- Referencja postaci = pierwsza w kolejce do modelu, twarz bez miksowania ze źródłem (też w trybie z prompta)\n- Kompas światła = świadomy relight (koniec sprzecznych instrukcji); relight budowany jak przez operatora na planie\n- Crystal Beauty (kryształ przy obiektywie), Wide Low-Angle zawsze ekstremalnie nisko/szeroko, Flash zawsze wyczuwalny\n- Bez god rays i pyłków w świetle; flary wielowarstwowe vintage, słońce nieprzepalone\n- Nano Banana Pro: koniec cichego fallbacku do 1K — jasny błąd zamiast gorszej jakości\n- Nazwy plików v01/v02 (też przy pobieraniu starszych wersji z historii), inteligentna kompresja promptów dla Magnific\n- Uczciwsze szacunki kosztów + limity dzienne i miesięczne we wszystkich ścieżkach (także upscale)",
   "announcement": {
     "id": "2026-07-v250",
     "title": "NMZC.kiddo 2.5 — światło, silniki, projekty",
