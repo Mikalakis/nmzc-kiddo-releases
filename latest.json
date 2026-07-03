@@ -1,11 +1,12 @@
 {
-  "version": "2.5.1",
+  "version": "2.5.2",
   "min_version": "2.0.0",
   "dmg_url": "https://github.com/Mikalakis/nmzc-kiddo-releases/releases/latest/download/NMZC.kiddo-AppleSilicon.dmg",
-  "notes": "Co nowego w 2.5.1:\n- Silniki generacji: GPT-image, Nano Banana i Mystic (przez Magnific)\n- Nano Banana Pro w 2K/4K edytuje Twoją klatkę\n- Przepisy światła (m.in. kontra ze słońcem za scenografią)\n- Film look (Kodak 2383, Vision3 500T i inne), auto-zapis projektów, Save As\n- Polish / Rebuild / Reshoot naprawione — Rebuild i Reshoot generują od zera\n- About / Instrukcja w aplikacji",
+  "notes": "Co nowego w 2.5.2:\n- Reframe NONE to teraz twardy FRAME LOCK — kadr 1:1 ze źródłem\n- Siła relightu do wyboru: subtle / balanced / dramatic (domyślnie balanced — światło wygląda jakby naprawdę tam było)\n- Mocniejszy filmowy look: filmic rolloff, kolor druku kinowego, prawdziwa mikrotekstura skóry\n- Panel wyników skaluje się do okna (bez scrolla), podgląd źródła w 16:9\n- Windows: aplikacja dostępna jako instalator .exe i od tej wersji też dostaje powiadomienia o aktualizacjach",
   "announcement": {
     "id": "2026-07-v250",
     "title": "NMZC.kiddo 2.5 — światło, silniki, projekty",
     "body": "Nowe silniki (Nano Banana / Mystic), relight w kontrze, film look i auto-zapis projektów. cooked by Mikalakis."
-  }
+  },
+  "exe_url": "https://github.com/Mikalakis/nmzc-kiddo-releases/releases/latest/download/NMZC.kiddo-Windows-Setup.exe"
 }
