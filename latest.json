@@ -1,8 +1,8 @@
 {
-  "version": "2.7.0",
+  "version": "2.7.1",
   "min_version": "2.0.0",
   "dmg_url": "https://github.com/Mikalakis/nmzc-kiddo-releases/releases/latest/download/NMZC.kiddo-AppleSilicon.dmg",
-  "notes": "Co nowego w 2.7.0:\n- DYNAMIKA: Motion (frozen / filmowy blur 180° / heavy — długa migawka), Caught in the moment (candid/raw — nic nie jest pozowane) i Imperfection (uczciwe błędy fotografa) — w Advanced\n- Nowe przepisy kamery: DV Cam (amatorska MiniDV, „kolega nakręcił”), 16 mm (soczyste ziarno, mocna saturacja i kontrast), 35 mm Cinema (turbo kino: wieloplanowość i pełna wiedza operatorska)\n- Prompt assistant w „New from prompt”: wklej prompt, napisz co zmienić, ✨ Improve przepisuje (z cofnięciem)\n- ✎ Correct w Analizie: popraw analizę własną instrukcją — kolejne generacje budują się z poprawionej wersji\n- Wyraźny przycisk New session w panelu Source (+ naprawa ponownej analizy po resecie)\n- Szczelny budżet po audycie: limity dzienne i miesięczne na WSZYSTKICH płatnych ścieżkach (też analiza, QA, asystent, relight), uczciwsze liczenie tokenów obrazu/tekstu/cache",
+  "notes": "Co nowego w 2.7.1 — NAPRAWA CHARAKTERU STYLÓW:\n- Style kamery były spłaszczane przez globalny blok „czystego kina” w KAŻDEJ generacji — dlatego 16 mm, DV i 35 mm wyglądały tak samo. Teraz każdy przepis może NADPISAĆ realizm i output:\n- DV Cam = prawdziwe WIDEO (miękkie SD, video-szum, pływający balans) — nie kino\n- 16 mm = MOCNE wyczuwalne ziarno + soczysta ciepła saturacja + halacja (koniec „fine grain” z kina)\n- 35 mm Cinema = pełny negatyw 35 mm z wieloplanowością — jako jedyny dostaje pełne kino\n- NOWY przepis Analog Snap — amatorska analogowa małpka (film-zdjęcie), osobny smak od DV (wideo) i Flash (twardy flesz)\n- Trzy amatorskie looki są teraz wyraźnie różne",
   "announcement": {
     "id": "2026-07-v250",
     "title": "NMZC.kiddo 2.5 — światło, silniki, projekty",
