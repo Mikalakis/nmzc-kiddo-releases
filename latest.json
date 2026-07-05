@@ -1,8 +1,8 @@
 {
-  "version": "2.7.1",
+  "version": "2.7.2",
   "min_version": "2.0.0",
   "dmg_url": "https://github.com/Mikalakis/nmzc-kiddo-releases/releases/latest/download/NMZC.kiddo-AppleSilicon.dmg",
-  "notes": "Co nowego w 2.7.1 — NAPRAWA CHARAKTERU STYLÓW:\n- Style kamery były spłaszczane przez globalny blok „czystego kina” w KAŻDEJ generacji — dlatego 16 mm, DV i 35 mm wyglądały tak samo. Teraz każdy przepis może NADPISAĆ realizm i output:\n- DV Cam = prawdziwe WIDEO (miękkie SD, video-szum, pływający balans) — nie kino\n- 16 mm = MOCNE wyczuwalne ziarno + soczysta ciepła saturacja + halacja (koniec „fine grain” z kina)\n- 35 mm Cinema = pełny negatyw 35 mm z wieloplanowością — jako jedyny dostaje pełne kino\n- NOWY przepis Analog Snap — amatorska analogowa małpka (film-zdjęcie), osobny smak od DV (wideo) i Flash (twardy flesz)\n- Trzy amatorskie looki są teraz wyraźnie różne",
+  "notes": "Co nowego w 2.7.2:\n- WYDAJNOŚĆ: auto-zapis pisze tylko NOWE klatki (pliki po hashu treści — koniec przepisywania całej historii przy każdej generacji), zapisy scalane (seria wariantów = jeden zapis), licznik kosztów w pamięci zamiast czytania całego logu\n- NAPRAWA filmowości: domyślny look i Vintage Glass znów wyglądają filmowo — globalny blok realizmu przechylał obraz w czystą cyfrę; teraz jest filmowy, a Vintage Glass dostał własny ciepły analogowy charakter\n- 16 mm: mocniejsze, grubsze, wyraźnie widoczne ziarno na całej klatce\n- Potwierdzone: apka NIE używa localStorage — limit 5 MB z metaSTORY tu nie występuje",
   "announcement": {
     "id": "2026-07-v250",
     "title": "NMZC.kiddo 2.5 — światło, silniki, projekty",
